@@ -1,0 +1,52 @@
+#hero {
+    padding-top: 110px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (max-width:750px) {
+    .hero{
+        margin-left: 50px;
+    }
+}
+
+.hero-cards {
+    margin-right: 40px;
+}
+
+.hero-title {
+    font-size: 50px;
+    color: var(--first-color);
+    margin-bottom: 20px;
+}
+
+.hero-desc {
+    font-size: 18px;
+    color: var(--primary-color);
+    margin-bottom: 50px;
+}
+
+.hero-btn {
+    font-size: 16px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 77px;
+    padding-right: 77px;
+    border-radius: 10px;
+    background-color: var(--third-color);
+    border: none;
+    color: var(--forth-color);
+    transition: 0.5s;
+}
+
+.hero-card-img{
+    width: 611px;
+    height: 382px;
+}
+
+.hero-btn:hover{
+    box-shadow: 5px 5px 10px #F53838;
+}

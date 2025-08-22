@@ -1,0 +1,48 @@
+#hero2 {
+    margin-top: 100px;
+}
+
+.hero2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width:750px) {
+    .hero2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width:750px) {
+    .hero2-card {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width:750px) {
+    .hero2-card ul li {
+        margin-left: 0px;
+    }
+}
+
+.hero2-card-title {
+    font-size: 35px;
+    color: var(--first-color);
+    margin-bottom: 20px;
+}
+
+.hero2-card-desc {
+    font-size: 16px;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+ul li {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
